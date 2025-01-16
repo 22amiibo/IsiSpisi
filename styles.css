@@ -1,0 +1,93 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #FFD700;
+}
+
+header {
+    background-color: #FF69B4;
+    color: white;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: #00FFFF;
+    text-shadow: 2px 2px #FF1493;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #00FFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    font-size: 1.2rem;
+}
+
+#hero {
+    background-color: #00FF00;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#hero h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    color: #FF4500;
+    text-shadow: 3px 3px #FFFF00;
+}
+
+#hero p {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    color: #8A2BE2;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #FF69B4;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+section h3 {
+    font-family: 'Bangers', cursive;
+    color: #00FFFF;
+    font-size: 2rem;
+    text-shadow: 2px 2px #FF1493;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #8A2BE2;
+    color: #FFFF00;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
